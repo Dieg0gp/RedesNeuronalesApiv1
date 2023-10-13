@@ -13,6 +13,6 @@ const DatosUsu = new Schema({
   createdAt: { type: Date, default: Date.now() },
 });
 
-const DatosUsuario = model('DatosUsuarios', DatosUsu);
+const DatosUsuario = model('Datos', DatosUsu);
 
 module.exports = DatosUsuario;
